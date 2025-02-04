@@ -10,20 +10,25 @@ This document provides a comprehensive overview of the frontend development for 
 #### ProductCard
 - Displays product details (e.g., name, price, image).
 - Reusable across pages like product listing and related products sections.
-- Dynamically fetches data from Sanity CMS.  
+- Dynamically fetches data from Sanity CMS. 
+ ![alt text](image2.png)
 
 #### CategoryFilter
 - Allows users to filter products by categories dynamically.
 - Integrated with state management for seamless interaction.
-- Dynamically fetches categories from Sanity CMS.  
+- Dynamically fetches categories from Sanity CMS.
+![alt text](image1.png)  
+![alt text](image4.png)
 
 #### FeaturedProducts
 - Highlights top or promotional products.
 - Fetches data dynamically from Sanity CMS.
+![alt text](image3.png)
 
 #### AddToCart & CartContent
 - Manages cart functionality.
-- Updates cart items dynamically with local state.  
+- Updates cart items dynamically with local state. 
+![alt text](image5.png) 
 
 ## Additional Features
 
@@ -58,14 +63,18 @@ const { cart, addToCart } = useContext(CartContext);
 ### Empty Cart Page
 - Displays a message when the cart is empty.
 - Provides a button to navigate back to the shop.
+![alt text](image6.png)
+
 
 ### Success Page
 - Confirms successful order placement.
 - Displays order summary and estimated delivery details.
+![alt text](image7.png)
 
 ### Orders List Page
 - Lists all past orders of the user.
 - Fetches order history dynamically from Sanity CMS.
+![alt text](ima.png)
 
 ## Challenges and Solutions
 
